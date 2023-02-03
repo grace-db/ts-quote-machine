@@ -9,7 +9,7 @@ function App() {
   }, []);
 
 const getLyrics = () => {
-  fetch("https://gist.githubusercontent.com/grace-mccarty/c77da583eb442ed35c890332f9efdfe8/raw/137243dddaced1faef88100b906a698c0779b228/tswift-lyrics.json")
+  fetch("https://gist.githubusercontent.com/grace-db/c77da583eb442ed35c890332f9efdfe8/raw/137243dddaced1faef88100b906a698c0779b228/tswift-lyrics.json")
     .then((res) => res.json())
     .then((song) => {
       let songLy = song.lyrics;
